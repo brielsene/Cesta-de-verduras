@@ -2,11 +2,10 @@
   <head>Cesta-de-verduras</head>
   
   <body>
-      <div>
-        <p align="center">
+      
   
- 
-          <h2>Projeto cesta de verduras, criado com React Native</h2>
+           
+    <h2><b>Projeto cesta de verduras, criado com React Native</b></h2>
           <h3>Tutorial da alura</h3>
        
     </div>

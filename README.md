@@ -3,7 +3,7 @@
   
   <body>
     <div>
-    <h2>Aplicação criada com React Native</h2>
+      <h2><b>Aplicação criada com React Native</b></h2>
     <h3>Curso Alura</h3>
     </div>
   </body>

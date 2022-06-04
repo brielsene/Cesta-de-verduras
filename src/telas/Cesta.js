@@ -1,8 +1,12 @@
 import React from 'react';
 import{ StyleSheet, Image, Dimensions, Text, View } from 'react-native';
+import NewText from '../componentes/Texto';
 
 import topo from '../../assets/topo.png';
 import logo from '../../assets/logo.png';
+import Texto from '../componentes/Texto';
+
+
 
 
 
@@ -12,18 +16,19 @@ const width = Dimensions.get('screen') .width;
 
 export default function Cesta(){
     return<>
+    
     <Image source={topo} style={estilos.topo} />
-    <Text style={estilos.titulo}>Detalhe da Cesta</Text>
+    <Texto style={estilos.titulo}>Detalhe da Cesta</Texto>
     
     
     <View style={estilos.cesta}>
-        <Text style={estilos.nome}>Cesta de Verduras</Text>
+        <Texto style={estilos.nome}>Cesta de Verduras</Texto>
         <View style={estilos.fazenda}>
             <Image source={logo} style={estilos.imagemFazenda}/>
-            <Text style={estilos.nomeFazenda}>Jenny Jack Farm</Text>
+            <Texto style={estilos.nomeFazenda}>Jenny Jack Farm</Texto>
         </View>
         
-        <Text style={estilos.descricao}>Uma cesta com produtos selecionados cuidadosamente direto para cozinha</Text>
+        <Texto style={estilos.descricao}>Uma cesta com produtos selecionados cuidadosamente direto para cozinha</Texto>
         <Text style={estilos.preco}>R$40,00</Text>
        
     </View>
@@ -55,10 +60,10 @@ cesta:{
 
 nome:{
     color:"#464646",
-    fontSize:36,
+    fontSize:26,
     lineHeight: 43,
     fontWeight: "bold",
-    fontFamily: "interRegular",
+    
     
     
     

@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 import Texto from '../../../componentes/Texto';
-import logo from '../../../../assets/logo.png';
+import logo from '../../../../assets/logo.png'
+
 
 export default function Detalhes(){
     return<>
@@ -16,13 +17,7 @@ export default function Detalhes(){
     
     
     </>
-
-
-
-
-
-
-    
+   
 }
 
 const estilos = StyleSheet.create({

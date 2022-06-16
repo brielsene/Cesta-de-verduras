@@ -1,31 +1,20 @@
 import React from 'react';
 import{ StyleSheet, Image, Dimensions, Text, View } from 'react-native';
 import NewText from '../../componentes/Texto';
-
-
-
 import Texto from '../../componentes/Texto';
 import Topo from'./componentes/Topo';
 import Detalhes from './componentes/Detalhes';
 
 
 
-
-
-
-
-
-
-export default function Cesta(){
+export default function Cesta(topo, detalhes){
     return<>
+
     
-    <Topo />
     
-    
-  
+    <Topo {...topo}  /> 
     <View style={estilos.cesta}>
-    <Detalhes/>
-       
+        <Detalhes/>      
     </View>
     </>
                 
@@ -38,7 +27,5 @@ cesta:{
     paddingVertical: 8,
     paddingHorizontal: 16
 },
-
-
 
 });
